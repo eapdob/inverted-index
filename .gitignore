@@ -1,0 +1,4 @@
+/.idea
+/mysql
+/app/node_modules
+/dump.sql
