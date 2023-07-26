@@ -12,7 +12,8 @@ async function main(search, exactOrder) {
   console.log(`Searching "${search}"`);
 
   const docIds = await searchInIndex({
-    indexFile: './data/index.data',
+    // indexFile: './data/index.data',
+    indexFile: '././index-data/index-vbyte-compressed.data',
     search,
     exactOrder
   });
